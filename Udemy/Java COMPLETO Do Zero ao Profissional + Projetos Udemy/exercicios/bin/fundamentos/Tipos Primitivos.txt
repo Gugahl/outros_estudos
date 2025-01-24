@@ -1,0 +1,38 @@
+Tipos Primitivos
+
+Data: 21/04/2021
+Hora: 17:53:22
+
+8 tipos
+- 6 deles representam valores numéricos
+-- 4 deles representam valores inteiros
+-- A diferença entre os 4 é a quantidade de armazenamento
+--- Byte - Representa 1 byte - armazena entre -128 até +127
+--- Short - Representa 2 bytes - armazena entre -32.768 até 32.767
+--- Int - Representa 4 bytes
+--- Long - Representa 8 bytes
+
+-- 2 deles representam valores flutuantes
+--- Float - Representa 4 bytes
+--- Double - Representa 8 bytes
+
+- Os outros dois são
+-- Char - Tudo que está dentro de aspas simples
+-- Boolean - true e false
+
+double a = 3; int
+double b = 3.2; double
+
+Conversões de tipos menores para maiores vão dar certo, exemplo: byte para short
+
+Mas conversões de tipos maiores para menores fazem a perca de informações, exemplo int para short
+
+double a = 3; int convertido para double
+
+a cada casa de milhar você pode colocar um anderlyne para ajudar na leitura, exemplo:
+
+double vendasAcumuladas = 2_991_797_103.01;
+
+longs precisam vir acompanhados de um L ou l no final do número
+
+floats precisa vir acompanhados do um F ou f no final do número
